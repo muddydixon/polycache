@@ -1,0 +1,6 @@
+image: node
+script:
+  - npm install
+  - npm test
+services:
+  - redis
