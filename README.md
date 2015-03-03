@@ -23,7 +23,7 @@ cache.set("largeCsv:2014-06-01:2014-06-14", bigValue) # to memory
   cache.get("largeCsv:2014-06-01:2014-06-14") # from memory
 )
 .then(->
-  cahce.end()
+  cahce.close()
 )
 ```
 
@@ -53,7 +53,7 @@ cache.set("largeCsv:2014-06-01:2014-06-14", bigValue) # to file
   cache.get("largeCsv:2014-06-01:2014-06-14") # from file
 )
 .then(->
-  cahce.end()
+  cahce.close()
 )
 ```
 
